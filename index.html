@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Game</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icon.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1 id="level-title">Welcome to Simon Game.</h1>
+      <h2>Click any key to start!</h2>
+    </div>
+
+    <div class="outer-container">
+      <div class="grid-container">
+        <div type="button" class="red btn" id="red"></div>
+        <div type="button" class="green btn" id="green"></div>
+
+        <div type="button" class="blue btn" id="blue"></div>
+        <div type="button" class="yellow btn" id="yellow"></div>
+      </div>
+    </div>
+    <footer>
+      <a href="https://github.com/MehdiHossenFahim"
+        ><img
+          src="./assets/images/Main-logo-black.png"
+          alt=""
+          width="16px"
+          height="16px"
+        /><span> Developed by Mehedi Hossen Fahim. 2026. &copy</span></a
+      >
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="game.js" charset="UTF-8"></script>
+  </body>
+</html>
